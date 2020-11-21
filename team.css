@@ -1,0 +1,129 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: markscript;
+}
+@font-face{
+	src:url('fonts/MarckScript-Regular.ttf');
+	font-family: markscript;
+}
+.team-section{
+	background: #2c3e50;
+	text-align: center;
+	padding: 60px;
+}
+.team-section h1{
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+}
+.border{
+	display: block;
+	margin:auto;
+	width: 160px;
+	height: 3px;
+	background: #F9690E;
+	margin-bottom: 60px;
+}
+.ps{
+	margin-bottom: 40px;
+}
+.ps a{
+	display: inline-block;
+	margin:0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+     width: 100%;
+     filter: grayscale(100%);
+     transition: 0.3s all;
+}
+.ps a:hover > img{
+     filter: none;
+}
+.section{
+	width: 600px;
+	margin:auto;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+	height: 0;
+	overflow: hidden;
+}
+.section:target{
+	height: auto;
+}
+
+.name{
+	display: block;
+	margin-bottom: 30px;
+	font-size: 22px;
+	text-align: center;
+}
+.section nm{
+padding-top: 30px;
+}
+
+@font-face{
+	src:url('fonts/MarckScript-Regular.ttf');
+	font-family: markscript;
+}
+.home-header{
+	background-color:#5696A0;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+}
+.menu .current a{
+  color:#FFFF00;
+  font-weight:bold;
+}
+
+.home-name span:nth-child(1){
+     color: #900C3F ;
+     font-weight:bold;
+     font-size: 40px;
+}
+.home-name span:nth-child(2){
+	 color: #FFC300;
+     font-weight:bold;
+     font-size: 20px;
+}
+.home-name h4{
+color: #FFC300;
+
+}
+
+
+.menu ul{
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	color:#FFC300;
+	font-size: 15px;
+	padding: 8px;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li:hover a{
+	background-color: #c0392b;
+	border-bottom: 2px solid #2c3e50;
+}
+.mid{
+	width: 80%;
+	margin: auto;
+}
+.home-name{
+	width: 60%;
+	float: left;
+}
+.menu{
+	width: 40%;
+	float: left;
+}
